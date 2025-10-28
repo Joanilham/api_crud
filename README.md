@@ -56,7 +56,7 @@ Kode di atas berfungsi untuk deklarasi class user,Properti seperti id,name, dan 
  ![alt text](screenshot/menambah_user.jpg)
 
 •Mengubah data user :
-![alt text](screenshot/memperbarui.jpg)
+![alt text](screenshot/meperbarui.jpg)
 •Kesimpulan dan Saran.
 Jadi setelah menambahkan data baru data tersebut tidak akan tampil di bagian daftar pengguna di karenakan Data yang telah tambahkan lewat endpoint ini (misal POST untuk menambah user) tidak benar-benar disimpan secara permanen di server reqres.in.
 Saya awalnya mengalami kesulitan dikarenakan perubahan persyaratan dari api yang telah di tentukan namun setelah saya mencari penyebabnya ternya reqres.in telah mengubah persyaratan yang awalnya tidak mengharuskan pengguna untuk memasukkan api key kemudian menjadi mengharuskan pengguna untuk memasukkan api key. Tetapi setelah error yang saya alami saya mendapatkan ilmu baru tentang API.
