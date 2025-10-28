@@ -31,32 +31,38 @@ Package `http` adalah library yang direkomendasikan untuk melakukan permintaan H
 ## Langkah-langkah Implementasi
 
 ### Kode bagian `add_user_page.dart`
-![alt text](screenshot/1.png)
+<img src="screenshot/1.png" alt="Kode add_user_page.dart" width="600">
+
 **Analisa:**
 > Kode di atas berfungsi untuk menyediakan form input untuk nama lengkap dan pekerjaan user. Melakukan validasi agar backend menggunakan metode `createUser` dari `api_service.dart`.
 
 ### Kode bagian `Api_config.dart`
-![alt text](screenshot/2.png)
+<img src="screenshot/2.png" alt="Kode Api_config.dart" width="600">
+
 **Analisa:**
 > Kode diatas berfungsi untuk memberikan akses ke api dikarenakan regres.in sekrang tidak bisa di akses kalau tidak menambahkan api key.
 
 ### Kode Bagian `Api_service.dart`
-![alt text](screenshot/3.png)
+<img src="screenshot/3.png" alt="Kode Api_service.dart" width="600">
+
 **Analisa:**
 > Kode di atas berfungsi untuk mengirim pemintaan http Seperti POST, GET, PUT, DELETE ke server dan mengelola data yang diterima dari server dan mengembalikannya ke UI.
 
 ### Kode bagian `edit_user_page.dart`
-![alt text](screenshot/4.png)
+<img src="screenshot/4.png" alt="Kode edit_user_page.dart" width="600">
+
 **Analisa:**
 > Kode di atas berfungsi untuk menampilkan data user yang sudah ada ke dalam form (nama dan pekerjaan). Dan memungkinkan pengguna mengubah data mengirim data yang sudah di edit ke backend menggunakan API.
 
 ### Kode bagian `main.dart`
-![alt text](screenshot/5.png)
+<img src="screenshot/5.png" alt="Kode main.dart" width="600">
+
 **Analisa:**
 > Kode di atas berfungsi untuk memanggil fungsi `main`, menjalankan aplikasi, menentukan widget utama, mengatur routing, tema, dan halaman awal aplikasi.
 
 ### Kode bagian `User_model.dart`
-![alt text](screenshot/6.png)
+<img src="screenshot/6.png" alt="Kode User_model.dart" width="600">
+
 **Analisa:**
 > Kode di atas berfungsi untuk deklarasi class `User`, Properti seperti `id`, `name`, dan `job`. Dan metod untuk konversi dari JSON ke objek dan sebaliknya (misal `FromJson`, `toJson`).
 
@@ -65,10 +71,10 @@ Package `http` adalah library yang direkomendasikan untuk melakukan permintaan H
 ## HASIL
 
 ### Membuat user:
-![alt text](screenshot/menambah_user.jpg)
+<img src="screenshot/menambah_user.jpg" alt="Hasil menambah user" width="600">
 
 ### Mengubah data user:
-![alt text](screenshot/meperbarui.jpg)
+<img src="screenshot/meperbarui.jpg" alt="Hasil memperbarui user" width="600">
 
 ---
 
